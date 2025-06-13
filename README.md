@@ -10,7 +10,7 @@ npm start
 🌐 Node.js バックエンド（URLコンソールチェッカー用）
 
 ```bash
-cd ../internal-tools-backen
+cd ../internal-tools-backend
 npm install
 node index.js
 ```
