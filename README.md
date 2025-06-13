@@ -27,3 +27,16 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python convert.py
 ```
+
+すべての依存関係がインストールされたら、以下のコマンドを実行してください。
+初回は
+
+ルートディレクトリで
+```bash
+npm install
+```
+
+```bash
+npm run start-all
+を実行すると、すべてのサーバーが起動します。
+```
