@@ -1,0 +1,15 @@
+{
+  "name": "toolsapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start-all": "concurrently \"npm start --prefix internal-tools\" \"node internal-tools-backend/index.js\" \"cd py-doc-backend && source .venv/bin/activate && python convert.py\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
