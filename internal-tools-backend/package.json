@@ -1,0 +1,19 @@
+{
+  "name": "internal-tools-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "docx": "^9.5.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.1",
+    "puppeteer": "^24.10.1"
+  }
+}
